@@ -3,7 +3,16 @@
 
 def handler(event, context):
 
-    print event
-    print context
+    method = event['context']['http-method']
 
-    return {}
+    res = {}
+    if method == 'GET':
+
+        res['params'] = event['params']['querystring']
+
+    else:
+
+        res['params'] = event['body-json']
+
+
+    return res

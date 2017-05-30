@@ -1,0 +1,352 @@
+[root - INFO - 2017-05-30 07:08:12,393] Event: {u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:08:12,393] START RequestId: 81b2b4ee-a49d-46e7-9f43-199f7eda42e2
+{u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+<lambda_local.context.Context object at 0x7ff494c4b5d0>
+[root - INFO - 2017-05-30 07:08:12,393] END RequestId: 81b2b4ee-a49d-46e7-9f43-199f7eda42e2
+[root - INFO - 2017-05-30 07:08:12,393] RESULT:
+{}
+[root - INFO - 2017-05-30 07:08:12,393] REPORT RequestId: 81b2b4ee-a49d-46e7-9f43-199f7eda42e2	Duration: 0.18 ms
+[root - INFO - 2017-05-30 07:08:14,909] Event: {u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:08:14,910] START RequestId: 9f3bd677-4355-424a-adc4-9f0056965b26
+{u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+<lambda_local.context.Context object at 0x7faa2349f5d0>
+[root - INFO - 2017-05-30 07:08:14,910] END RequestId: 9f3bd677-4355-424a-adc4-9f0056965b26
+[root - INFO - 2017-05-30 07:08:14,910] RESULT:
+{}
+[root - INFO - 2017-05-30 07:08:14,910] REPORT RequestId: 9f3bd677-4355-424a-adc4-9f0056965b26	Duration: 0.18 ms
+[root - INFO - 2017-05-30 07:08:23,098] Event: {u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:08:23,098] START RequestId: adf5b914-55cb-4150-b7c2-7ef88dfb1e97
+{u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+<lambda_local.context.Context object at 0x7efd32f8b5d0>
+[root - INFO - 2017-05-30 07:08:23,098] END RequestId: adf5b914-55cb-4150-b7c2-7ef88dfb1e97
+[root - INFO - 2017-05-30 07:08:23,098] RESULT:
+{}
+[root - INFO - 2017-05-30 07:08:23,098] REPORT RequestId: adf5b914-55cb-4150-b7c2-7ef88dfb1e97	Duration: 0.16 ms
+[root - INFO - 2017-05-30 07:15:39,938] Event: {u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:15:39,939] START RequestId: 57e03a4e-cd40-4e7d-b185-d85d5668d69b
+{u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:15:39,939] END RequestId: 57e03a4e-cd40-4e7d-b185-d85d5668d69b
+[root - INFO - 2017-05-30 07:15:39,939] RESULT:
+{}
+[root - INFO - 2017-05-30 07:15:39,939] REPORT RequestId: 57e03a4e-cd40-4e7d-b185-d85d5668d69b	Duration: 0.20 ms
+[root - INFO - 2017-05-30 07:18:20,711] Event: {u'body-json': {}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:18:20,712] START RequestId: edffe761-b2aa-4153-9d32-1a34ebebecd4
+[root - INFO - 2017-05-30 07:18:20,712] END RequestId: edffe761-b2aa-4153-9d32-1a34ebebecd4
+[root - INFO - 2017-05-30 07:18:20,712] RESULT:
+{'params': {}}
+[root - INFO - 2017-05-30 07:18:20,712] REPORT RequestId: edffe761-b2aa-4153-9d32-1a34ebebecd4	Duration: 0.13 ms
+[root - INFO - 2017-05-30 07:18:29,562] Event: {u'body-json': {}, u'params': {u'path': {}, u'querystring': {u'hoge': u'3532523'}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'GET', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:18:29,562] START RequestId: c4c781ce-7c12-4f9d-87b4-49147ccd98c3
+[root - INFO - 2017-05-30 07:18:29,563] END RequestId: c4c781ce-7c12-4f9d-87b4-49147ccd98c3
+[root - INFO - 2017-05-30 07:18:29,563] RESULT:
+{'params': {u'hoge': u'3532523'}}
+[root - INFO - 2017-05-30 07:18:29,563] REPORT RequestId: c4c781ce-7c12-4f9d-87b4-49147ccd98c3	Duration: 0.13 ms
+[root - INFO - 2017-05-30 07:18:40,348] Event: {u'body-json': {u'hoge': u'3532523'}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'POST', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:18:40,348] START RequestId: 153d5aab-3180-4209-b552-3fc2f3a32350
+[root - INFO - 2017-05-30 07:18:40,352] END RequestId: 153d5aab-3180-4209-b552-3fc2f3a32350
+[root - INFO - 2017-05-30 07:18:40,352] RESULT:
+{
+    "stackTrace": [
+        [
+            "/root/.pyenv/versions/2.7.13/envs/lambda/lib/python2.7/site-packages/lambda_local/main.py",
+            88,
+            "execute",
+            "result = func(event, context.activate())"
+        ],
+        [
+            "/home/lambda/dev/lambda.py",
+            13,
+            "handler",
+            "res['params'] = event['params']['body-json']"
+        ]
+    ],
+    "errorType": "KeyError",
+    "errorMessage": "'body-json'"
+}
+[root - INFO - 2017-05-30 07:18:40,353] REPORT RequestId: 153d5aab-3180-4209-b552-3fc2f3a32350	Duration: 3.95 ms
+[root - INFO - 2017-05-30 07:19:05,373] Event: {u'body-json': {u'hoge': u'3532523'}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'POST', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:19:05,374] START RequestId: 9d32057e-cf85-47b0-93a0-1f2b7f121ac7
+[root - INFO - 2017-05-30 07:19:05,374] END RequestId: 9d32057e-cf85-47b0-93a0-1f2b7f121ac7
+[root - INFO - 2017-05-30 07:19:05,374] RESULT:
+{'params': {u'hoge': u'3532523'}}
+[root - INFO - 2017-05-30 07:19:05,374] REPORT RequestId: 9d32057e-cf85-47b0-93a0-1f2b7f121ac7	Duration: 0.24 ms
+[root - INFO - 2017-05-30 07:19:12,862] Event: {u'body-json': {u'hoge': u'3532523'}, u'params': {u'path': {}, u'querystring': {}, u'header': {u'Host': u'localhost', u'Accept': u'*/*', u'User-Agent': u'Local'}}, u'base64-body': u'', u'context': {u'http-method': u'PUT', u'source-ip': u'localhost', u'stage': u'local', u'resource-path': u''}, u'stage-variables': {}}
+[root - INFO - 2017-05-30 07:19:12,862] START RequestId: 8a810414-7f35-4d69-873f-ea0546d18266
+[root - INFO - 2017-05-30 07:19:12,863] END RequestId: 8a810414-7f35-4d69-873f-ea0546d18266
+[root - INFO - 2017-05-30 07:19:12,863] RESULT:
+{'params': {u'hoge': u'3532523'}}
+[root - INFO - 2017-05-30 07:19:12,863] REPORT RequestId: 8a810414-7f35-4d69-873f-ea0546d18266	Duration: 0.13 ms
+[root - INFO - 2017-05-30 08:59:50,207] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 08:59:50,208] START RequestId: 8fc56081-92bf-43d5-afe7-ea50b9a199de
+[root - INFO - 2017-05-30 08:59:50,208] END RequestId: 8fc56081-92bf-43d5-afe7-ea50b9a199de
+[root - INFO - 2017-05-30 08:59:50,208] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 08:59:50,208] REPORT RequestId: 8fc56081-92bf-43d5-afe7-ea50b9a199de	Duration: 0.22 ms
+[root - INFO - 2017-05-30 09:01:22,080] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:01:22,080] START RequestId: 1907d916-29ce-4187-99b3-47f3aaed3a02
+[root - INFO - 2017-05-30 09:01:22,080] END RequestId: 1907d916-29ce-4187-99b3-47f3aaed3a02
+[root - INFO - 2017-05-30 09:01:22,080] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:01:22,081] REPORT RequestId: 1907d916-29ce-4187-99b3-47f3aaed3a02	Duration: 0.22 ms
+b"[root - INFO - 2017-05-30 09:05:01,139] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}\n[root - INFO - 2017-05-30 09:05:01,140] START RequestId: 62008cd2-2659-411f-aba8-f8487d80115b\n[root - INFO - 2017-05-30 09:05:01,140] END RequestId: 62008cd2-2659-411f-aba8-f8487d80115b\n[root - INFO - 2017-05-30 09:05:01,140] RESULT:\n{'params': {'hoge': '3532523'}}\n[root - INFO - 2017-05-30 09:05:01,140] REPORT RequestId: 62008cd2-2659-411f-aba8-f8487d80115b\tDuration: 0.21 ms\n"b"[root - INFO - 2017-05-30 09:05:50,823] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}\n[root - INFO - 2017-05-30 09:05:50,823] START RequestId: a92a1d08-de68-4c59-ad5a-f5c02065243b\n[root - INFO - 2017-05-30 09:05:50,823] END RequestId: a92a1d08-de68-4c59-ad5a-f5c02065243b\n[root - INFO - 2017-05-30 09:05:50,823] RESULT:\n{'params': {'hoge': '3532523'}}\n[root - INFO - 2017-05-30 09:05:50,823] REPORT RequestId: a92a1d08-de68-4c59-ad5a-f5c02065243b\tDuration: 0.21 ms\n"b"[root - INFO - 2017-05-30 09:08:32,993] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}\n[root - INFO - 2017-05-30 09:08:32,993] START RequestId: 1108ff4b-ee0e-4876-a4f1-ef15dcd8f35a\n[root - INFO - 2017-05-30 09:08:32,994] END RequestId: 1108ff4b-ee0e-4876-a4f1-ef15dcd8f35a\n[root - INFO - 2017-05-30 09:08:32,994] RESULT:\n{'params': {'hoge': '3532523'}}\n[root - INFO - 2017-05-30 09:08:32,994] REPORT RequestId: 1108ff4b-ee0e-4876-a4f1-ef15dcd8f35a\tDuration: 0.23 ms\n"b"[root - INFO - 2017-05-30 09:08:51,867] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}\n[root - INFO - 2017-05-30 09:08:51,868] START RequestId: b044d892-63f2-47ce-9c22-c6687cf2dd43\n[root - INFO - 2017-05-30 09:08:51,868] END RequestId: b044d892-63f2-47ce-9c22-c6687cf2dd43\n[root - INFO - 2017-05-30 09:08:51,868] RESULT:\n{'params': {'hoge': '3532523'}}\n[root - INFO - 2017-05-30 09:08:51,868] REPORT RequestId: b044d892-63f2-47ce-9c22-c6687cf2dd43\tDuration: 0.21 ms\n"b"[root - INFO - 2017-05-30 09:09:46,663] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}\n[root - INFO - 2017-05-30 09:09:46,664] START RequestId: 40f5d4dd-23e8-4a03-95f1-7f8e435638e1\n[root - INFO - 2017-05-30 09:09:46,664] END RequestId: 40f5d4dd-23e8-4a03-95f1-7f8e435638e1\n[root - INFO - 2017-05-30 09:09:46,664] RESULT:\n{'params': {'hoge': '3532523'}}\n[root - INFO - 2017-05-30 09:09:46,664] REPORT RequestId: 40f5d4dd-23e8-4a03-95f1-7f8e435638e1\tDuration: 0.23 ms\n"b"[root - INFO - 2017-05-30 09:10:38,714] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}\n[root - INFO - 2017-05-30 09:10:38,714] START RequestId: 0ef09846-b4c0-4f1d-b118-df46798daed7\n[root - INFO - 2017-05-30 09:10:38,715] END RequestId: 0ef09846-b4c0-4f1d-b118-df46798daed7\n[root - INFO - 2017-05-30 09:10:38,715] RESULT:\n{'params': {'hoge': '3532523'}}\n[root - INFO - 2017-05-30 09:10:38,715] REPORT RequestId: 0ef09846-b4c0-4f1d-b118-df46798daed7\tDuration: 0.21 ms\n"b"[root - INFO - 2017-05-30 09:11:23,508] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}\n[root - INFO - 2017-05-30 09:11:23,508] START RequestId: 750d3fed-862e-4328-bbe0-b943cbc89237\n[root - INFO - 2017-05-30 09:11:23,509] END RequestId: 750d3fed-862e-4328-bbe0-b943cbc89237\n[root - INFO - 2017-05-30 09:11:23,509] RESULT:\n{'params': {'hoge': '3532523'}}\n[root - INFO - 2017-05-30 09:11:23,509] REPORT RequestId: 750d3fed-862e-4328-bbe0-b943cbc89237\tDuration: 0.20 ms\n"[root - INFO - 2017-05-30 09:24:33,210] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:24:33,211] START RequestId: 6fbed7bf-cd78-498b-9b0e-2041b0b2b692
+[root - INFO - 2017-05-30 09:24:33,211] END RequestId: 6fbed7bf-cd78-498b-9b0e-2041b0b2b692
+[root - INFO - 2017-05-30 09:24:33,211] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:24:33,211] REPORT RequestId: 6fbed7bf-cd78-498b-9b0e-2041b0b2b692	Duration: 0.21 ms
+[root - INFO - 2017-05-30 09:25:50,815] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:25:50,815] START RequestId: 842bab0e-fa39-4799-bdc1-f7f0646099b1
+[root - INFO - 2017-05-30 09:25:50,815] END RequestId: 842bab0e-fa39-4799-bdc1-f7f0646099b1
+[root - INFO - 2017-05-30 09:25:50,816] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:25:50,816] REPORT RequestId: 842bab0e-fa39-4799-bdc1-f7f0646099b1	Duration: 0.21 ms
+[root - INFO - 2017-05-30 09:26:18,954] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:26:18,954] START RequestId: 43eea520-1503-4849-8edf-ddbd3b79e3d4
+Process Process-1:
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 88, in execute
+    result = func(event, context.activate())
+  File "/home/lambda/dev/lambda.py", line 6, in handler
+    hoge
+NameError: name 'hoge' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 49, in run
+    result, err_type = execute(func, e, c)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 98, in execute
+    }, indent=4, separators=(',', ': '))
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 437, in _iterencode
+    o = _default(o)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'FrameSummary' is not JSON serializable
+[root - INFO - 2017-05-30 09:30:20,255] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:30:20,255] START RequestId: e540815b-8936-4cc5-9546-03e793663b87
+Process Process-1:
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 88, in execute
+    result = func(event, context.activate())
+  File "/home/lambda/dev/lambda.py", line 6, in handler
+    hoge
+NameError: name 'hoge' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 49, in run
+    result, err_type = execute(func, e, c)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 98, in execute
+    }, indent=4, separators=(',', ': '))
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 437, in _iterencode
+    o = _default(o)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'FrameSummary' is not JSON serializable
+[root - INFO - 2017-05-30 09:36:10,698] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:36:10,698] START RequestId: 722dc250-40d3-4800-aeb4-4ac0e551142a
+[root - INFO - 2017-05-30 09:36:10,698] END RequestId: 722dc250-40d3-4800-aeb4-4ac0e551142a
+[root - INFO - 2017-05-30 09:36:10,698] RESULT:
+<class 'Exception'>
+[root - INFO - 2017-05-30 09:36:10,698] REPORT RequestId: 722dc250-40d3-4800-aeb4-4ac0e551142a	Duration: 0.21 ms
+[root - INFO - 2017-05-30 09:37:52,294] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:37:52,295] START RequestId: dbcfc8e0-17a5-44fe-b396-74c7657e4e67
+[root - INFO - 2017-05-30 09:37:52,295] END RequestId: dbcfc8e0-17a5-44fe-b396-74c7657e4e67
+[root - INFO - 2017-05-30 09:37:52,295] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:37:52,295] REPORT RequestId: dbcfc8e0-17a5-44fe-b396-74c7657e4e67	Duration: 0.20 ms
+[root - INFO - 2017-05-30 09:38:11,959] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:38:11,959] START RequestId: 3044d84a-1647-4522-b941-889c7557245f
+[root - INFO - 2017-05-30 09:38:11,960] END RequestId: 3044d84a-1647-4522-b941-889c7557245f
+[root - INFO - 2017-05-30 09:38:11,960] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:38:11,960] REPORT RequestId: 3044d84a-1647-4522-b941-889c7557245f	Duration: 0.20 ms
+[root - INFO - 2017-05-30 09:38:53,797] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:38:53,798] START RequestId: c147f076-edb5-4b87-8d5f-3c342ea59e0a
+[root - INFO - 2017-05-30 09:38:53,798] END RequestId: c147f076-edb5-4b87-8d5f-3c342ea59e0a
+[root - INFO - 2017-05-30 09:38:53,798] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:38:53,798] REPORT RequestId: c147f076-edb5-4b87-8d5f-3c342ea59e0a	Duration: 0.22 ms
+[root - INFO - 2017-05-30 09:40:43,796] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:40:43,796] START RequestId: 9db1169b-95fc-4839-970f-da1d72fc88b8
+[root - INFO - 2017-05-30 09:40:43,796] END RequestId: 9db1169b-95fc-4839-970f-da1d72fc88b8
+[root - INFO - 2017-05-30 09:40:43,796] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:40:43,796] REPORT RequestId: 9db1169b-95fc-4839-970f-da1d72fc88b8	Duration: 0.20 ms
+[root - INFO - 2017-05-30 09:42:32,076] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:42:32,076] START RequestId: e21b1712-1b8d-41c3-9563-bafda00f9b64
+Process Process-1:
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 88, in execute
+    result = func(event, context.activate())
+  File "/home/lambda/dev/lambda.py", line 7, in handler
+    hoge
+NameError: name 'hoge' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 49, in run
+    result, err_type = execute(func, e, c)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 98, in execute
+    }, indent=4, separators=(',', ': '))
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 437, in _iterencode
+    o = _default(o)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'FrameSummary' is not JSON serializable
+[root - INFO - 2017-05-30 09:46:21,585] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:46:21,585] START RequestId: e2f29962-a0aa-40ac-a746-91b2b09b88c8
+[root - INFO - 2017-05-30 09:46:21,586] END RequestId: e2f29962-a0aa-40ac-a746-91b2b09b88c8
+[root - INFO - 2017-05-30 09:46:21,586] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:46:21,586] REPORT RequestId: e2f29962-a0aa-40ac-a746-91b2b09b88c8	Duration: 0.20 ms
+[root - INFO - 2017-05-30 09:47:00,067] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:47:00,067] START RequestId: 51ee1308-3974-4028-a50d-281c866c932c
+[root - INFO - 2017-05-30 09:47:00,068] END RequestId: 51ee1308-3974-4028-a50d-281c866c932c
+[root - INFO - 2017-05-30 09:47:00,068] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:47:00,068] REPORT RequestId: 51ee1308-3974-4028-a50d-281c866c932c	Duration: 0.21 ms
+[root - INFO - 2017-05-30 09:50:05,720] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:50:05,720] START RequestId: 060e14d6-757b-4f59-a8b8-08425ad7417b
+[root - INFO - 2017-05-30 09:50:05,720] END RequestId: 060e14d6-757b-4f59-a8b8-08425ad7417b
+[root - INFO - 2017-05-30 09:50:05,721] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:50:05,721] REPORT RequestId: 060e14d6-757b-4f59-a8b8-08425ad7417b	Duration: 0.21 ms
+[root - INFO - 2017-05-30 09:52:43,023] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:52:43,023] START RequestId: 9c568198-da04-45f9-be8d-e8add02a4b1e
+[root - INFO - 2017-05-30 09:52:43,023] END RequestId: 9c568198-da04-45f9-be8d-e8add02a4b1e
+[root - INFO - 2017-05-30 09:52:43,023] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:52:43,023] REPORT RequestId: 9c568198-da04-45f9-be8d-e8add02a4b1e	Duration: 0.20 ms
+[root - INFO - 2017-05-30 09:54:26,754] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:54:26,755] START RequestId: 9a124b21-9cff-43c6-93a6-be448c53006f
+[root - INFO - 2017-05-30 09:54:26,755] END RequestId: 9a124b21-9cff-43c6-93a6-be448c53006f
+[root - INFO - 2017-05-30 09:54:26,755] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:54:26,755] REPORT RequestId: 9a124b21-9cff-43c6-93a6-be448c53006f	Duration: 0.21 ms
+[root - INFO - 2017-05-30 09:54:36,334] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:54:36,334] START RequestId: 24172418-b307-482f-9297-1d3fbf8ed947
+Process Process-1:
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 88, in execute
+    result = func(event, context.activate())
+  File "/home/lambda/dev/lambda.py", line 8, in handler
+    hoge
+NameError: name 'hoge' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 49, in run
+    result, err_type = execute(func, e, c)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 98, in execute
+    }, indent=4, separators=(',', ': '))
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 437, in _iterencode
+    o = _default(o)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'FrameSummary' is not JSON serializable
+Process Process-1:
+Traceback (most recent call last):
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 39, in run
+    func = load(request_id, args.file, args.function)
+  File "/root/.pyenv/versions/3.6.1/envs/lambda/lib/python3.6/site-packages/lambda_local/main.py", line 78, in load
+    mod = imp.load_source(mod_name, path)
+  File "/root/.pyenv/versions/3.6.1/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 675, in _load
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/lambda/dev/lambda.py", line 8
+    hoge = 98few
+               ^
+SyntaxError: invalid syntax
+[root - INFO - 2017-05-30 09:55:16,578] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'hoge': '3532523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:55:16,578] START RequestId: 70e80a43-c0ef-4f6b-b4d1-ef9968bb6969
+[root - INFO - 2017-05-30 09:55:16,579] END RequestId: 70e80a43-c0ef-4f6b-b4d1-ef9968bb6969
+[root - INFO - 2017-05-30 09:55:16,579] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:55:16,579] REPORT RequestId: 70e80a43-c0ef-4f6b-b4d1-ef9968bb6969	Duration: 0.20 ms
+[root - INFO - 2017-05-30 09:55:20,236] Event: {'context': {'stage': 'local', 'http-method': 'POST', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {'hoge': '3532523'}, 'params': {'path': {}, 'querystring': {}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 09:55:20,236] START RequestId: bb56b488-c945-46e9-b138-65ade8aee0ba
+[root - INFO - 2017-05-30 09:55:20,236] END RequestId: bb56b488-c945-46e9-b138-65ade8aee0ba
+[root - INFO - 2017-05-30 09:55:20,236] RESULT:
+{'params': {'hoge': '3532523'}}
+[root - INFO - 2017-05-30 09:55:20,236] REPORT RequestId: bb56b488-c945-46e9-b138-65ade8aee0ba	Duration: 0.20 ms
+[root - INFO - 2017-05-30 10:30:47,697] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 10:30:47,698] START RequestId: 25775907-12db-403c-8073-dbf7deb38d85
+[root - INFO - 2017-05-30 10:30:47,698] END RequestId: 25775907-12db-403c-8073-dbf7deb38d85
+[root - INFO - 2017-05-30 10:30:47,698] RESULT:
+{'params': {}}
+[root - INFO - 2017-05-30 10:30:47,698] REPORT RequestId: 25775907-12db-403c-8073-dbf7deb38d85	Duration: 0.18 ms
+[root - INFO - 2017-05-30 10:30:52,204] Event: {'context': {'stage': 'local', 'http-method': 'GET', 'resource-path': '', 'source-ip': 'localhost'}, 'body-json': {}, 'params': {'path': {}, 'querystring': {'sss': '534523'}, 'header': {'Accept': '*/*', 'User-Agent': 'Local', 'Host': 'localhost'}}, 'base64-body': '', 'stage-variables': {}}
+[root - INFO - 2017-05-30 10:30:52,205] START RequestId: f9f8b284-ec8d-4d6b-accc-08ef57acf5b3
+[root - INFO - 2017-05-30 10:30:52,205] END RequestId: f9f8b284-ec8d-4d6b-accc-08ef57acf5b3
+[root - INFO - 2017-05-30 10:30:52,205] RESULT:
+{'params': {'sss': '534523'}}
+[root - INFO - 2017-05-30 10:30:52,205] REPORT RequestId: f9f8b284-ec8d-4d6b-accc-08ef57acf5b3	Duration: 0.19 ms

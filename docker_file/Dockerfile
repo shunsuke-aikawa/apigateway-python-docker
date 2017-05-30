@@ -15,7 +15,7 @@ RUN yum install -y nginx
 ENV HOME=/root
 ENV PYENV_ROOT=$HOME/.pyenv
 ENV PATH=$PYENV_ROOT/bin:$PATH
-ENV PYVERSION=2.7.13
+ENV PYVERSION=3.6.1
 ENV WORK_DIR=/home/lambda
 ENV VIRTUALNAME=lambda
 

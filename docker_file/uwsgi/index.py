@@ -4,6 +4,7 @@ import json
 import ast
 import re
 import traceback
+import sys
 
 
 LAMBDA_METHOD = 'handler'
@@ -34,6 +35,7 @@ LAMBDA_PARAMS = {
 
 def application(env, start_response):
     try:
+
         req = Request(env)
         lam = Lambda()
 
@@ -43,20 +45,27 @@ def application(env, start_response):
 
         try:
 
+
             status_code, ret = lam.execute_lambda()
 
-        except Exception as e:
-            start_response('500', [('Content-Type','application/json')])
-            return json.dumps({'errorMessage': e.message,
-                               'stackTrace': lam.stack_trace})
 
-        start_response(status_code, [('Content-Type','application/json')])
-        return json.dumps(ret)
+            start_response(status_code, [('Content-Type','application/json')])
+            return [ json.dumps(ret).encode("utf-8") ]
+
+
+        except Exception:
+            start_response('500', [('Content-Type','application/json')])
+            return [ json.dumps({'stackTrace': lam.stack_trace}).encode("utf-8") ]
+
+
 
     except Exception as e:
+
         start_response('500', [('Content-Type','application/json')])
-        return json.dumps({'errorMessage': e.message,
-                           'stackTrace': traceback.format_exc()})
+        return [ json.dumps({'stackTrace': traceback.format_exc()}).encode("utf-8") ]
+
+
+
 
 
 class Request(object):
@@ -102,19 +111,21 @@ class Lambda(object):
             f.write(json.dumps(LAMBDA_PARAMS))
 
     def execute_lambda(self):
-        """
-        lambdaをローカルで実行
-        """
 
-        process = subprocess.Popen(self._lambda_command().split(" "),
+        process = subprocess.run(self._lambda_command().split(" "),
                                     stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
 
-        stdout_data, stderr_data = process.communicate()
+        stdout_data = process.stdout.decode('utf-8')
+
+
         self._write_log(stdout_data)
         self._check_exception(stdout_data)
         stdout_data = self._extract_result(stdout_data)
         status_code = self._check_status_code(stdout_data)
+
+
         return status_code, stdout_data
+
 
     def _write_log(self, ret):
         params_file = "{}/log/debug.log".format(LAMBDA_DIR)
@@ -126,31 +137,24 @@ class Lambda(object):
     def _lambda_command(self):
         return "python-lambda-local -f {} -t 30 {}/{} {}/params.json".format(LAMBDA_METHOD, LAMBDA_DIR, LAMBDA_FILE, LAMBDA_DIR)
 
-    def _extract_result(self, ret):
-        try:
-            ret = ret.split("RESULT:\n")[1].split("\n[")[0]
-            return ast.literal_eval(ret)
-        except Exception as e:
-            r = re.compile(r"errorMessage.*\n")
-            error_message = r.findall(ret)
-            if error_message:
-                return {'errorMessage': error_message[0], 'stackTrace': ret.split('\n')}
 
+    def _extract_result(self, ret):
+        ret = ret.split("RESULT:\n")[1].split("\n[")[0]
+        return ast.literal_eval(ret)
 
 
     def _check_status_code(self, ret):
-        error_key = 'errorMessage'
-        if ret.has_key(error_key):
-            code = ret[error_key].split(":")[0]
-            if len(code) == 3:
-                return code
 
+        error_key = 'Traceback'
+        if error_key in ret:
             return '500'
 
         return '200'
 
+
     def _check_exception(self, ret):
         res = ret.split("Process Process-1:")
+
         if (len(res) is 2):
             self.stack_trace = res[1].split('\n')
             raise Exception("Lambda Error")
