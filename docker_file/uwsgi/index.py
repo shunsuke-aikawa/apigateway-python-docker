@@ -75,7 +75,7 @@ class Request(object):
         self.query_string = self._get_query_string(env['QUERY_STRING'])
         self.path = add_slash(env['PATH_INFO'])
         self.body = self._get_body(env)
-        self.path_params = {}
+        self.path_params = env['PATH_INFO']
 
     def _get_query_string(self, query_string):
         return_dict = {}
