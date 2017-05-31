@@ -23,9 +23,9 @@ curl localhost/aaa?a=1
     "json-body": {},
     "method": "GET",
     "query-string": {
-        "hoge": "33"
+        "a": "1"
     },
-    "url": "/eeere"
+    "url": "/aaa"
 }
 
 
