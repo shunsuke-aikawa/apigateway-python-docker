@@ -1,4 +1,4 @@
-dev/log
+dev/log/debug.log
 dev/__pycache__
 dev/params.json
 
